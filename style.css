@@ -1,6 +1,6 @@
 * { /* Its a universal selector */
-    padding : 0;
-    margin : 0;
+    padding : 0;   /*Padding in the internal space inside the elements*/
+    margin : 0; /*Margin in the external space outside the elements*/
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
