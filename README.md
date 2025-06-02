@@ -13,7 +13,7 @@ Then we committed those files using the command: "git commit -m "wrote our messa
 and then pushed all of our content 
 and boom, we were live yaay :)
 
-Summary:
+Summary: <br>
 cd your-project-folder         # Navigate to your project folder <br>
 git init                      # Initialize Git repo <br>
 git remote add origin https://github.com/your-username/your-repo.git   # Link remote repo <br>
