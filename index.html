@@ -17,18 +17,18 @@
 </head>
 <body>
     <!--Hero section starts here-->
-    <div class="hero"> <!--Use <div> when you want to group elements for layout or styling-->
+    <div class="hero" id="home"> <!--Use <div> when you want to group elements for layout or styling-->
         <nav><!--Use <nav> when you want to mark a section that helps users move around the site.-->
             <h2 class="logo">Portfo<span>lio</span></h2> 
             <ul> <!--Its an unordered list-->
                 <!-- Links to different sections of my portfolio -->
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
             </ul>
-            <a href="#" class="btn">Subscribe</a> <!--It serves a different function than the list of nav links so it should be outside the list, not grouped with them-->
+            <a href="#" class="btn">Subscribe</a>
         </nav>
 
             <div class="content">
@@ -48,78 +48,112 @@
 
     <!--About section start-->
 
-    <section class="about">
+    <section class="about" id="about-me">
         <div class="main">
             <img src="kitty.jpg">
             <div class="about-text">
                 <h2>About Me</h2>
                 <h5>Full-Stack <span>Developer</span></h5>
-                <p>Hi, I’m Fatima — a full-stack web developer in progress, with a strong interest in building clean, responsive, and user-focused websites. As I keep learning and building, I’m excited about what’s ahead — especially opportunities to grow, collaborate, and contribute to something meaningful.Thanks for stopping by — I’m looking forward to connecting and sharing more of my work soon.</p>
-                <button type="button">Lets Talk</button>
+                <p>Hey! Fatima here :)<br>Just a young and deeply passionate web developer who turns creative ideas into powerful & user-friendly websites. From clean designs to smooth functionality, I love every part of building for the web. I'm constantly learning and leveling up my skills every single day.<br>I believe in working smart, dreaming big, and never letting age limit ambition. I’m just getting started…and trust me, I’m not stopping any time soon ✨</p>
             </div>
         </div>
     </section>
 
     <!--service section starts-->
-    <div class="service">
+    <div class="service" id="services">
         <div class="title">
             <h2>Our Services</h2>
         </div>
 
         <div class="box">
             <div class="card">
-                <i class="fa-solid fa-bars"></i>
-                <h5>Web Development</h5>
+                <i class="fa-solid fa-code"></i>
+                <h5>Frontend Development</h5>
                 <div class="pra">
-                    <p>Every website should be built with two primary goals: Firstly, It needs to work across all the devces and secondly, It need to be as fast as possible. </p>
-
-                    <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                    </p>
+                    <p>Building websites that are visually appealing, simple to navigate and performs flawlessly across all devices.</p>
                 </div>
             </div>
 
             <div class="card">
-                <i class="fa-solid fa-user"></i>
-                <h5>Web Development</h5>
+                <i class="fa-solid fa-database"></i>
+                <h5>Backend Basics</h5>
                 <div class="pra">
-                    <p>Every website should be built with two primary goals: Firstly, It needs to work across all the devces and secondly, It need to be as fast as possible. </p>
-
-                    <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                    </p>
+                    <p>Building secure login systems, efficient form handling, and managing databases — powering your websites with strong, reliable backend foundations and smart logic to keep everything running smoothly.</p>
                 </div>
             </div>
 
             <div class="card">
-                <i class="fa-solid fa-bell"></i>
-                <h5>Web Development</h5>
+                <i class="fa-solid fa-brush"></i>
+                <h5>Web Design</h5>
                 <div class="pra">
-                    <p>Every website should be built with two primary goals: Firstly, It needs to work across all the devces and secondly, It need to be as fast as possible. </p>
-
-                    <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                    </p>
+                    <p>Modern, user-friendly designs that look amazing and feel smooth — because your website should be both functional and beautiful.</p>
                 </div>
             </div>
         </div>
     </div>
 
+    <!--Skills section start-->
+    <div class="skills">
+    <section id="skills" class="skills">
+  <h2>Skills & Tools </h2>
+  <div class="smaller-box">
+
+    <div class="small">
+        <h5>Frontend </h5>
+            <div class="sect">
+                <p>HTML/ CSS, JavaScript, Deep JS (ES6+), React, Bootstrap</p>
+            </div>
+    </div>
+
+    <div class="small">
+        <h5>Database management system:</h5>
+            <div class="sect">
+                <p>MySQL and MongoDB</p>
+            </div>
+    </div>
+
+    <div class="small">
+        <h5>Version control:</h5>
+            <div class="sect">
+                <p>GIT</p>
+            </div>
+    </div>
+
+    <div class="small">
+        <h5>Backend:</h5>
+            <div class="sect">
+                <p>Node.js, Express.js</p>
+            </div>
+    </div>
+
+    <div class="small">
+        <h5>Deployment:</h5>
+            <div class="sect">
+                <p>Versel, AWS</p>
+            </div>
+    </div>
+</div>
+</section>
+</div>
+
+
     <!--Contact Me-->
-    <div class="contact-me">
-        <p>Let Me Get You A Beautiful Website</p>
+    <div class="contact-me" id="contact-me">
+        <p>Let Me Get You A Beautiful Website >3</p><br>
         <a class="button-two" href="#">Hire Me</a>
     </div>
 
     <!--Footer starts-->
     <footer>
         <p>Fatima Saif</p>
-        <p>For more HTML, CSS and coding tutorials - please click on the link blow to subscribe my channel: </p>
-        <div class="socials">
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <p>Links to all my socials </p>
+        <div class="social">
+                <a href="#"><i class="fa-brands fa-instagram" target="_blank"></i></a>
+                <a href="https://www.linkedin.com/in/fatima-saif-1359a6324/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/CodeByFatima" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.youtube.com/@FatimaMadeIt" target="_blank"><i class="fa-brands fa-youtube"></i></a>
         </div>
+
         <p class="end">CopyRight By Fatima Saif</p>
     </footer>
 </body>
