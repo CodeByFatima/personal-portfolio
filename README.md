@@ -20,3 +20,9 @@ git remote add origin https://github.com/your-username/your-repo.git   # Link re
 git add .                     # Stage all files <br>
 git commit -m "your message"  # Commit changes with a message <br>
 git push -u origin main       # Push to GitHub (replace 'main' if needed) <br>
+
+Faced a problem: 
+Local machine was not able to push the commits to the git hence we used the following command and then pushed it and yeah it worked >3
+Command: 
+git pull origin main --rebase
+
